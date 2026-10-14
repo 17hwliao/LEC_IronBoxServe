@@ -1,0 +1,20 @@
+# Documentation only; never publish production exports.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.dpapi
+*.dpapi.json
+id_rsa*
+id_ed25519*
+known_hosts*
+config.json
+frpc.ini
+frpc.toml
+credentials*.json
+*.log
+backups/
+private/
